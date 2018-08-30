@@ -17,6 +17,23 @@ if(isset($_POST['userId']))
 	<title></title>
 </head>
 <body>
-<?php echo $_SESSION['email']; ?>
+
+<img src="<?php echo $_SESSION['picture'] ?>">
+	<p>
+<?php
+echo $_SESSION['userId'];
+?></p>
+
+	<p>
+<?php
+echo $_SESSION['name'];
+?></p>
+
+	<p>
+<?php
+echo $_SESSION['email'];
+?></p>
+
+
 </body>
 </html>

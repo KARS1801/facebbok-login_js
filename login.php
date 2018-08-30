@@ -42,7 +42,7 @@ function logIn()
 			person.accessToken=response.authResponse.accessToken;
 
 			FB.api('/me?fields=name,email,picture.type(large)', function (userData){
-				person.username = userData.username;
+				person.username = userData.name;
 				person.email = userData.email;
 				person.picture = userData.picture.data.url;
 
