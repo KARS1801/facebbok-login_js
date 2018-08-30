@@ -58,7 +58,7 @@ function logIn()
 
   window.fbAsyncInit = function() {
     FB.init({
-      appId            : '1804091813043434',
+      appId            : '{your app id}',
       autoLogAppEvents : true,
       xfbml            : true,
       version          : 'v3.1'
